@@ -1,10 +1,3 @@
-def count_evens(nums):
-  count = 0
-  for i in nums:
-    if i%2 == 0:
-      count+= 1
-  return count
-
 def big_diff(nums):
     numsmin = nums[0]
     numsmax = nums[0]
@@ -15,22 +8,26 @@ def big_diff(nums):
             numsmax = i
     return numsmax - numsmin
 
+
+print(big_diff([10, 3, 5, 6])) 
+        
+ 
+
+  
+
 def centered_average(nums):
     numsmin = nums[0]
     numsmax = nums[0]
-    indexmin= 0 
-    indexmax = 0
-    index = 0
     for i in nums:
         if i < numsmin:
             numsmin = i
-            indexmin = index
         if i > numsmax:
             numsmax = i
-            indexmax = index
-        index+=1
     count = 0
     for i in nums:
         if i != numsmin and i != numsmax:
             count += i
     return count / len(nums)
+
+print(centered_average([1, 2, 3, 4, 100]))
+  
