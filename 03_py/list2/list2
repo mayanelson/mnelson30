@@ -25,12 +25,40 @@ def centered_average(nums):
         if i < numsmin:
             numsmin = i
             indexmin = index
-        if i > numsmax:
+        if i >= numsmax:
             numsmax = i
             indexmax = index
         index+=1
     count = 0
-    for i in nums:
-        if i != numsmin and i != numsmax:
-            count += i
-    return count / len(nums)
+    for i in range(len(nums)):
+        if i != indexmin and i != indexmax:
+            count += nums[i]
+    return count / (len(nums)-2)
+
+def sum13(nums):
+  sum = 0
+  for i in range(len(nums)):
+    if i == 0 and nums[i] != 13:
+      sum += nums[i]
+    elif nums[i] != 13 and nums[i-1] != 13:
+      sum += nums[i]
+  return sum
+
+def sum67(nums):
+  sum = 0
+  sixy = False
+  for i in nums:
+    if i == 6:
+      sixy = True
+    if sixy == False:
+      sum += i
+    if i == 7:
+      sixy = False
+  return sum
+
+def has22(nums):
+  for i in range(len(nums)-1):
+    if nums[i] == 2 and nums[i+1] == 2:
+      return True
+  return False
+
