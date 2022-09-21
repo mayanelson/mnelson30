@@ -5,6 +5,7 @@ def count_evens(nums):
       count+= 1
   return count
 
+print("====COUNT_EVENS====")
 print("Should return 3:")
 print(count_evens([2, 1, 2, 3, 4]))
 print("Should return 3:")
@@ -22,6 +23,7 @@ def big_diff(nums):
             numsmax = i
     return numsmax - numsmin
 
+print("====BIG_DIFF====")
 print("Should return 7:")
 print(big_diff([10, 3, 5, 6]))
 print("Should return 8:")
@@ -48,7 +50,8 @@ def centered_average(nums):
         if i != indexmin and i != indexmax:
             count += nums[i]
     return int(count / (len(nums)-2))
-
+  
+print("====CENTERED_AVERAGE====")
 print("Should return 3:")
 print(centered_average([1, 2, 3, 4, 100]))
 print("Should return 5:")
@@ -65,6 +68,7 @@ def sum13(nums):
       sum += nums[i]
   return sum
 
+print("====SUM13====")
 print("Should return 6:")
 print(sum13([1, 2, 2, 1]))
 print("Should return 2:")
@@ -84,6 +88,7 @@ def sum67(nums):
       sixy = False
   return sum
 
+print("====SUM67====")
 print("Should return 6:")
 print(sum67([1, 2, 2]))
 print("Should return 2:")
@@ -97,6 +102,7 @@ def has22(nums):
       return True
   return False
 
+print("====HAS22====")
 print("Should return True:")
 print(has22([1, 2, 2]))
 print("Should return False:")
