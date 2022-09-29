@@ -13,7 +13,7 @@ with open('krewes.txt') as file:
         devolist = krewes[int(devo[0])]
         for j in range(len(devolist)):
             if devolist[j] == devo[1]:
-                devolist[j] += " " + devo[2]
+                devolist[j] += "  " + devo[2]
         krewes[int(devo[0])] = devolist
                 
     
@@ -26,8 +26,10 @@ def selectDevo():
     devoList = krewes[randomCrew]
 
     randomDevo = randint(0,len(devoList)-1)
-    devothing = devoList[randomDevo].split(" ")
-    print("Name:" + devothing[0] + " Period: " + str(randomCrew) + " Ducky:" + devothing[1])
+    devothing = devoList[randomDevo].split("  ")
+    print("Name:" + devothing[0] + " Period: " + str(randomCrew))
+    if len(devothing) > 1:
+        print(" Ducky:" + devothing[1])
  
 
 print(krewes)
