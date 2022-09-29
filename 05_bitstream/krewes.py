@@ -1,3 +1,26 @@
+'''
+Maya Nelson and Jonathan Song
+SoftDev
+K04 -- Creating a dictionary of crews with duckies
+2022-09-22
+time spent: 1 hour
+'''
+
+'''
+DISCO:
+* Some names have spaces in them...
+*
+
+QCC:
+* How do we get the ducky names?
+* Are we supposed to make a new dictionary or modify the old?
+
+OPS SUMMARY:
+Splits txt file into individual devo information, loops through krewes to find that devo and modifies name
+by adding the ducky name next to it. The selectDevo() function finds that devo, splits it into devo and
+ducky, and returns all needed information.
+'''
+
 from random import randint
 
 krewes = {2:["NICHOLAS",  "ANTHONY",  "BRIAN",  "SAMUEL",  "JULIA",  "YUSHA",  "CORINA",  "CRAIG",  "FANG MIN",  "JEFF",  "KONSTANTIN",  "AARON",  "VIVIAN",  "AYMAN",  "TALIA",  "FAIZA",  "ZIYING",  "YUK KWAN",  "DANIEL",  "WEICHEN",  "MAYA",  "ELIZABETH",  "ANDREW",  "VANSH",  "JONATHAN",  "ABID",  "WILLIAM",  "HUI",  "ANSON",  "KEVIN",  "DANIEL",  "IVAN",  "JASMINE",  "JEFFREY"],
