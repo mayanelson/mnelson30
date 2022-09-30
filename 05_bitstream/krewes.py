@@ -1,8 +1,8 @@
 '''
 Maya Nelson and Jonathan Song
 SoftDev
-K04 -- Creating a dictionary of crews with duckies
-2022-09-22
+K05 -- Creating a dictionary of crews with duckies
+2022-09-29
 time spent: 1 hour
 '''
 
