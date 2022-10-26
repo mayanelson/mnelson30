@@ -13,3 +13,4 @@ DISCO:
 QCC
 - how do we get key values from DictReader?
 - what is the advantage of using DictReader vs just reader?
+- why does c.execute ("select * from students") not print content? why do we have to use fetchone or fetchall?

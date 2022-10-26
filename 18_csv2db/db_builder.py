@@ -27,21 +27,8 @@ def popTable(filename):
         for row in csvfile:
             c.execute(f"INSERT INTO {tblname} VALUES (\"{row[0]}\", {row[1]}, {row[2]})")
     '''
-    '''
-    #failed dictreader attempt
-    with open(filename) as f:
-        csvfile = csv.DictReader(f)
-        print(csvfile)
-        tblname = filename.split(".")[0]
-        
-        c.execute(f"DROP TABLE IF EXISTS {tblname}")
-        c.execute(f"CREATE TABLE {tblname}({csvfile.fieldnames()[0]} TEXT,{csvfile.fieldnames()[1]} INTEGER, {csvfile.fieldnames()[2]} INTEGER)")
 
-        for row in csvfile:
-            c.execute(f"INSERT INTO {tblname} VALUES (\"{row[csvfile.fieldnames()[0]]}\", {row[csvfile.fieldnames()[1]]}, {row[csvfile.fieldnames()[2]]})")
-    '''
-
-    #qworking but seeems less efficent
+    #qwrking but seeems inefficent
     with open("students.csv") as f:
         csvfile = csv.DictReader(f)
         #print(csvfile)
