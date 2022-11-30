@@ -14,4 +14,4 @@ q0 - 1
 
 q0b - https://get.foundation/frameworks-docs.html
 
-q1 - ours (~~we are superior~~ ours was prettier)
+q1 - ~~we are superior~~ ours was prettier
