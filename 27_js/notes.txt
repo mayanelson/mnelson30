@@ -1,21 +1,18 @@
-Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
+Team Hmmm:: Maya Nelson, Sam ????
 SoftDev pd0
 K27 -- Basic functions in JavaScript
 2023-04-03t
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____
-* ...
+* Scheme wack
+* Built in fact function
+* Recusion is slay
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Teh whah now?
-* ...
+* Why scheme?????
 =================================================================
 
 
