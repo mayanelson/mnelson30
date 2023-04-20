@@ -1,4 +1,4 @@
-// Team TrailBlazers :: Shreya Roy, Jeffrey
+// Team Soeckies :: Shreya Roy, Maya Nelson
 // SoftDev pd2
 // K28 -- Getting more comfortable with the dev console and the DOM
 // 2023-04-19
