@@ -5,12 +5,14 @@ fillStyle() - change style used for filling
 strokeStyle() - change the style used for outlines
 fillText() - fills text with certain color
 beginPath() - start a drawing
-arc() - make an arc 
+arc() - make an arc / circle
 fill() - fill with color
 stroke() - make a brush stroke
 Math.PI - 3
 offsetX - offset based off the page
 offsetY - offset y based off the page
-
+requestAnimationFrame() -  tells the browser that you wish to perform an animation
+cancelAnimationFrame() - method cancels an animation frame request previously scheduled
+through a call to window.requestAnimationFrame()
 QCC:
 -what coordinate system do they use???????
