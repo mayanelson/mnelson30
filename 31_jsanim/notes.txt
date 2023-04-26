@@ -1,0 +1,26 @@
+UPDATED TOOLBOX
+
+clearRect() - clear rectangle 
+getElementById() - get element with specified getElementById
+addEventListener() - add event listener that tracks when happens to an html element
+fillStyle() - change style used for filling
+strokeStyle() - change the style used for outlines
+fillText() - fills text with certain color
+beginPath() - start a drawing
+arc() - make an arc / circle
+fill() - fill with color
+stroke() - make a brush stroke
+Math.PI - 3
+offsetX - offset based off the page
+offsetY - offset y based off the page
+requestAnimationFrame() -  tells the browser that you wish to perform an animation
+cancelAnimationFrame() - method cancels an animation frame request previously scheduled
+through a call to window.requestAnimationFrame()
+
+Notes
+-must clearAnimation after redrawing each frame 
+-addEventListener can go anywhere in document but must be included
+
+QCC:
+-why is Beginpath needed to start a circle?
+-what does getContext do?
