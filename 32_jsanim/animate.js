@@ -44,8 +44,8 @@ var drawDot = () => {
     requestID = window.requestAnimationFrame(drawDot);
   };
 
-var posX = 250;
-var posY = 250;
+var posX = Math.random()*500;
+var posY = Math.random()*500;
 var deltaX = 1; 
 var deltaY = 1;
 
@@ -56,18 +56,18 @@ var drawDVD = () => {
 
   ctx.beginPath();
   // make the dvd logo bounce around the canvas
-    if (posX >= c.width - 30 || posX <= 0) {
+    if (posX >= c.width - 60 || posX <= 0) {
         deltaX *= -1;
     }
     
-    if (posY >= c.height - 20 || posY <= 0) {
+    if (posY >= c.height - 40 || posY <= 0) {
         deltaY *= -1;
     }
   
   posX += deltaX;
   posY += deltaY;
 
-  ctx.drawImage(image, posX, posY, 30, 20);
+  ctx.drawImage(image, posX, posY, 60, 40);
   
   stopIt();
   requestID = window.requestAnimationFrame(drawDVD);
